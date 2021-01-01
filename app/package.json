@@ -1,0 +1,36 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "scripts": {
+    "watch:tailwind": "postcss src/tailwind.css -o ../server/dist/index.css -w",
+    "build:tailwind": "SET NODE_ENV=production && postcss src/tailwind.css -o ../server/dist/index.css",
+    "start": "SET NODE_ENV=development && rollup --config --watch",
+    "build": "SET NODE_ENV=production && rollup --config",
+    "serve": "sirv ../server/dist"
+  },
+  "devDependencies": {
+    "@pyoner/svelte-ts-preprocess": "^1.2.1",
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "@rollup/plugin-typescript": "^4.1.1",
+    "del-cli": "^3.0.0",
+    "prettier": "^2.0.4",
+    "prettier-plugin-svelte": "^1.1.0",
+    "rollup": "^2.6.1",
+    "rollup-plugin-html2": "^1.1.0",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "svelte": "^3.0.0",
+    "svelte-preprocess": "^3.7.1",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "postcss-cli": "^7.1.1",
+    "sirv-cli": "^0.4.4",
+    "tailwindcss": "^1.4.6"
+  }
+}

@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Nikhil",
+        "distance": 43319,
+        "car": "Honda City",
+        "color": "deepskyblue",
+        "last": 10,
+        "active": true,
+        "winner": false,
+        "nextround": true,
+        "secret": "6ceeb954b0717be82f626e3b37fbbd7941171b3b"
+    },
+    {
+        "name": "Netra",
+        "distance": 63983,
+        "car": "Volkswagen Vento",
+        "color": "aquamarine",
+        "last": 1,
+        "active": true,
+        "winner": true,
+        "nextround": true,
+        "secret": "dcf17fe1639d6860fb8f1896fdae972c8a99a599"
+    },
+    {
+        "name": "Dhanya",
+        "distance": 27902,
+        "car": "Volkswagen Polo",
+        "color": "plum",
+        "last": 3,
+        "active": false,
+        "winner": false,
+        "nextround": true,
+        "secret": "3448a6bdc16476189a4340a632cd057c4095cfb8"
+    },
+    {
+        "name": "Oviya",
+        "distance": 41593,
+        "car": "Honda City",
+        "color": "pink",
+        "last": 5,
+        "active": false,
+        "winner": false,
+        "nextround": false,
+        "secret": "3dc37c2fcf9a0437ef66511d9df81646d343fe0a"
+    },
+    {
+        "name": "Darshith",
+        "distance": 40941,
+        "car": "Honda City",
+        "color": "gold",
+        "last": 7,
+        "active": false,
+        "winner": false,
+        "nextround": true,
+        "secret": "c622a41dac0e6258a6192a56492a844788b081c8"
+    }
+]
